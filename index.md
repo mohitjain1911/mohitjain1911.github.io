@@ -87,10 +87,3 @@ If you want this as a single-page website, I can also convert this README into a
 
 ---
 
-## Next steps I can help with (pick one)
-
-* Draft a polished README for **multi-cloud-ci-cd** (ready to paste).
-* Generate the GitHub Pages `index.md` (one-click publish).
-* Create a 2–3 minute demo script & example Loom recording checklist for your pipeline.
-
-*Pick one and I’ll prepare it now.*
