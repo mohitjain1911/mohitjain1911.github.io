@@ -1,0 +1,141 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+h1, h2, h3 {
+  color: #f0f6fc;
+  font-weight: 700;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(135deg, #1f2937, #0d1117);
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #8b949e;
+}
+
+.hero-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+.hero-links a:hover {
+  text-decoration: underline;
+}
+
+/* ABOUT */
+.about p {
+  margin-bottom: 1rem;
+}
+
+.services li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+/* STACK */
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* PROJECTS */
+.projects {
+  background: #161b22;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.project-card {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #58a6ff;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* TESTIMONIALS */
+.testimonials blockquote {
+  font-style: italic;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #58a6ff;
+  color: #8b949e;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #161b22;
+  margin-top: 3rem;
+}
+
+.footer a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .tagline {
+    font-size: 1rem;
+  }
+}
