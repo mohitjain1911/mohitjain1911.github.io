@@ -75,15 +75,3 @@ DevOps Engineer with 2 years of hands‑on experience building and maintaining C
 
 ---
 
-## Resume & Contact
-
-**Mohit Jain**
-+91 – 8160261124
-✉️ [mohitjain1940@gmail.com](mailto:mohitjain1940@gmail.com)
-GitHub: [https://github.com/mohitjain1911](https://github.com/mohitjain1911)
-LinkedIn: [https://www.linkedin.com/in/mohitjain1911](https://www.linkedin.com/in/mohitjain1911)
-
-If you want this as a single-page website, I can also convert this README into a GitHub Pages-ready site (simple template) or a one-page HTML you can host on Netlify/Vercel.
-
----
-
