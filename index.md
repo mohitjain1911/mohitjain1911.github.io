@@ -1,4 +1,4 @@
-# Mohit Jain — DevOps Engineer
+# DevOps Engineer
 
 **📞 +91 – 8160261124   •   ✉️ [mohitjain1940@gmail.com](mailto:mohitjain1940@gmail.com)   •   [GitHub](https://github.com/mohitjain1911)   •   [LinkedIn](https://www.linkedin.com/in/mohitjain1911)**
 
