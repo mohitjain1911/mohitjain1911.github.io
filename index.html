@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mohit Jain — DevOps Engineer</title>
     <meta name="description" content="DevOps Engineer — CI/CD, Kubernetes, AWS, Azure, Automation" />
+    <meta property="og:title" content="Mohit Jain — DevOps/Cloud Engineer" />
+    <meta property="og:description" content="I build automated pipelines & cloud infrastructure so your deployments run without hiccups." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohitjain1911.github.io" />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Mohit+Jain+Portfolio" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -45,12 +50,12 @@
                         </div>
                         <div>
                             <h1 class="mb-1">Mohit Jain</h1>
-                            <p class="subtitle mb-0">DevOps Engineer — CI/CD • Kubernetes • AWS & Azure • Automation</p>
+                            <p class="subtitle mb-0">I build automated pipelines & cloud infrastructure so your deployments run without hiccups.</p>
                         </div>
                     </div>
                     <div class="cta-row">
-                        <a href="#projects" class="btn btn-primary"><i class="bi bi-rocket-takeoff me-1"></i>View My Work</a>
-                        <a href="#contact" class="btn btn-secondary"><i class="bi bi-envelope me-1"></i>Contact Me</a>
+                        <a href="#featured" class="btn btn-primary"><i class="bi bi-rocket-takeoff me-1"></i>View My Work</a>
+                        <a href="mailto:mohitjain1940@gmail.com" class="btn btn-secondary"><i class="bi bi-envelope me-1"></i>Contact Me</a>
                     </div>
                     <div class="meta">
                         <i class="bi bi-telephone"></i> <a href="tel:+918160261124">+91 8160261124</a>
@@ -69,6 +74,27 @@
             </div>
         </section>
 
+        <section id="how" class="section">
+            <div class="container">
+                <h2>How I Work</h2>
+                <div class="how-grid">
+                    <div class="how-step"><span class="num">1</span><h3>Discuss</h3><p>Requirements, timelines, environments.</p></div>
+                    <div class="how-step"><span class="num">2</span><h3>Plan</h3><p>Design pipelines and infra with clear scope.</p></div>
+                    <div class="how-step"><span class="num">3</span><h3>Build</h3><p>Implement CI/CD, IaC, K8s, and dashboards.</p></div>
+                    <div class="how-step"><span class="num">4</span><h3>Deliver</h3><p>Handover docs, train team, and support.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section alt">
+            <div class="container">
+                <h2>Insights</h2>
+                <div class="blog-grid">
+                    <article class="blog-card"><h3>Optimizing Jenkins Pipelines</h3><p>Practical ways to cut build time and reduce flaky stages.</p><a href="#" class="btn btn-secondary">Read</a></article>
+                    <article class="blog-card"><h3>Getting Started with Helm</h3><p>Templating Kubernetes apps for repeatable deployments.</p><a href="#" class="btn btn-secondary">Read</a></article>
+                </div>
+            </div>
+        </section>
         <section id="about" class="section">
             <div class="container two-col">
                 <h2>About Me</h2>
@@ -77,10 +103,22 @@
                 </p>
             </div>
         </section>
-
-        <section id="skills" class="section alt">
+        <section id="services" class="section alt">
             <div class="container">
-                <h2>Technical Skills</h2>
+                <h2>Services</h2>
+                <div class="services-grid">
+                    <div class="service-card"><i class="bi bi-diagram-3"></i><h3>CI/CD Pipeline Setup</h3><p>Jenkins, GitHub Actions, AWS CodePipeline.</p></div>
+                    <div class="service-card"><i class="bi bi-gear"></i><h3>Infrastructure Automation</h3><p>Ansible & Terraform modules.</p></div>
+                    <div class="service-card"><i class="bi bi-box-seam"></i><h3>Containerization & K8s</h3><p>Docker images, Helm charts, Kubernetes.</p></div>
+                    <div class="service-card"><i class="bi bi-graph-up"></i><h3>Monitoring Dashboards</h3><p>Prometheus, Grafana, Loki with alerts.</p></div>
+                    <div class="service-card"><i class="bi bi-cloud"></i><h3>Cloud Architecture</h3><p>AWS & Azure design and migration.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="section alt">
+            <div class="container">
+                <h2>Tech Stack</h2>
                 <div class="skills-grid">
                     <div class="skill-card">
                         <h3>Programming</h3>
@@ -133,60 +171,14 @@
             </div>
         </section>
 
-        <section id="experience" class="section">
+        <section id="work" class="section">
             <div class="container">
                 <h2>Experience</h2>
-                <div class="timeline">
-                    <article class="exp-item">
-                        <header>
-                            <h3>DevOps Engineer</h3>
-                            <div class="meta">Qualys • 6 months</div>
-                        </header>
-                        <ul>
-                            <li>Implemented performance benchmarking pipeline for base Docker images (CPU, memory, disk IOPS, latency) via Ansible and integrated into Jenkins.</li>
-                            <li>Improved observability (Prometheus, Grafana) and optimized autoscaling in OKE clusters.</li>
-                            <li>Hardened CI/CD pipeline security with dynamic TLS handling.</li>
-                            <li>Automated Kubernetes bootstrap and CI/CD setup using Ansible; collaborated across teams for production readiness.</li>
-                        </ul>
-                    </article>
-                    <article class="exp-item">
-                        <header>
-                            <h3>DevOps Engineer</h3>
-                            <div class="meta">Lovenheal • 9 months</div>
-                        </header>
-                        <ul>
-                            <li>Developed and maintained Jenkins CI/CD pipelines; resolved SSL certificate issues in production.</li>
-                            <li>Automated website uptime checks (Bash, Cron) and database backups.</li>
-                            <li>Built Grafana dashboards with Prometheus and Node Exporter for server health monitoring.</li>
-                            <li>Implemented centralized logs with Grafana, Loki, and Promtail.</li>
-                            <li>Created automated Selenium tests to improve release quality.</li>
-                        </ul>
-                    </article>
-                    
-                    <article class="exp-item">
-                        <header>
-                            <h3>DevOps Engineer</h3>
-                            <div class="meta">Solytics Partners • 3 months</div>
-                        </header>
-                        <ul>
-                            <li>Owned CI/CD pipelines across Preprod, QA, Dev, and Production environments on Azure post migration from AWS.</li>
-                            <li>Managed Jenkins jobs, troubleshooting deployments and designing new environment-specific pipelines.</li>
-                            <li>Partnered with Ansible team to deliver configuration automation and deployment scripting.</li>
-                            <li>Produced client-facing architecture decks documenting Azure setup.</li>
-                        </ul>
-                    </article>
-                    <article class="exp-item">
-                        <header>
-                            <h3>DevOps Engineer</h3>
-                            <div class="meta">Hackveda • 6 months</div>
-                        </header>
-                        <ul>
-                            <li>Delivered full DevOps pipeline on AWS with Git-based CI/CD.</li>
-                            <li>Managed Jenkins pipelines for build, test, and deploy; containerized services with Docker.</li>
-                            <li>Configured NGINX as reverse proxy for load balancing and routing.</li>
-                            <li>Managed Linux on AWS EC2 integrating Docker, Jenkins, and Git workflows.</li>
-                        </ul>
-                    </article>
+                <div class="work-grid">
+                    <article class="work-item"><h3>Intern, Qualys</h3><ul><li>Designed performance benchmarking pipeline.</li><li>Improved dashboards; automated cluster setups.</li></ul></article>
+                    <article class="work-item"><h3>Intern, Solytics Partners</h3><ul><li>Built CI/CD pipelines for Azure.</li><li>Supported configuration automation.</li></ul></article>
+                    <article class="work-item"><h3>Intern, Lovenheal</h3><ul><li>Grafana dashboards; SSL checks & backups.</li><li>Centralized logs with Loki/Promtail.</li></ul></article>
+                    <article class="work-item"><h3>Intern, Hackveda</h3><ul><li>Full DevOps pipeline on AWS; containerization.</li><li>NGINX reverse proxy setup.</li></ul></article>
                 </div>
             </div>
         </section>
@@ -202,34 +194,25 @@
             </div>
         </section>
 
-        <section id="projects" class="section">
+        <section id="featured" class="section">
             <div class="container">
-                <h2>Projects</h2>
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <h3>Appointment Management System</h3>
-                        <p>Scalable web app using PHP, MySQL, HTML, CSS, JavaScript, Bootstrap with 3NF database and MVC architecture.</p>
-                        <ul class="bullets compact">
-                            <li>Improved DB performance via normalization</li>
-                            <li>Responsive, accessible UI</li>
-                        </ul>
-                    </article>
-                    <article class="project-card">
-                        <h3>CI/CD for Docker & Kubernetes</h3>
-                        <p>Automated container build, test, and deploy with Jenkins, Docker, and Helm to Kubernetes.</p>
-                        <ul class="bullets compact">
-                            <li>Reduced deployment bugs via TDD</li>
-                            <li>Repeatable infra as code</li>
-                        </ul>
-                    </article>
-                    <article class="project-card">
-                        <h3>Flask Task Manager on AWS CI/CD</h3>
-                        <p>Built with Flask and Python; automated via AWS CodeBuild and CodeDeploy with performance-focused architecture.</p>
-                        <ul class="bullets compact">
-                            <li>40% faster deployments</li>
-                            <li>Improved reliability</li>
-                        </ul>
-                    </article>
+                <h2>Featured Projects</h2>
+                <div class="featured-grid">
+                    <article class="feature-card"><div class="feature-media"></div><div class="feature-body"><h3>multi-cloud-ci-cd</h3><p class="problem">Problem: Multi-cloud deployments lacked standardization.</p><p class="solution">Solution: Unified CI/CD with reusable pipelines and IaC modules.</p><p class="outcome">Outcome: 40% faster releases; consistent environments.</p><div class="actions"><a class="btn btn-secondary" href="#" target="_blank">GitHub Repo</a> <a class="btn btn-primary" href="#" target="_blank">Live Demo</a></div></div></article>
+                    <article class="feature-card"><div class="feature-media"></div><div class="feature-body"><h3>cicd-kube-docker</h3><p class="problem">Problem: Manual image builds and fragile deploys.</p><p class="solution">Solution: Jenkins pipelines, Docker builds, Helm rollouts.</p><p class="outcome">Outcome: Fewer rollbacks; faster deploys.</p><div class="actions"><a class="btn btn-secondary" href="#" target="_blank">GitHub Repo</a></div></div></article>
+                    <article class="feature-card"><div class="feature-media"></div><div class="feature-body"><h3>ansible-project</h3><p class="problem">Problem: Inconsistent server config.</p><p class="solution">Solution: Ansible roles for idempotent provisioning.</p><p class="outcome">Outcome: Repeatable environments; lower drift.</p><div class="actions"><a class="btn btn-secondary" href="#" target="_blank">GitHub Repo</a></div></div></article>
+                    <article class="feature-card"><div class="feature-media"></div><div class="feature-body"><h3>MVP_AWS_EB / Flask AWS CI/CD</h3><p class="problem">Problem: Slow manual deploys.</p><p class="solution">Solution: CodeBuild/CodeDeploy pipeline for Flask app.</p><p class="outcome">Outcome: 40% faster deployments; improved reliability.</p><div class="actions"><a class="btn btn-secondary" href="#" target="_blank">GitHub Repo</a></div></div></article>
+                </div>
+            </div>
+        </section>
+        <section id="more" class="section alt">
+            <div class="container">
+                <h2>More Projects</h2>
+                <div class="more-grid">
+                    <div class="more-card"><div class="thumb"></div><div class="title">object_detection_for_blind</div></div>
+                    <div class="more-card"><div class="thumb"></div><div class="title">Appointment Management System</div></div>
+                    <div class="more-card"><div class="thumb"></div><div class="title">React Admin UI</div></div>
+                    <div class="more-card"><div class="thumb"></div><div class="title">PHP Inventory Tool</div></div>
                 </div>
             </div>
         </section>
@@ -243,8 +226,8 @@
                         <div class="d-flex justify-content-center">
                           <div class="rec-card">
                             <i class="bi bi-chat-quote quote"></i>
-                            <p class="mb-3">During his time with us, Mohit resolved Jenkins and Kubernetes automation issues, improved cluster bootstrapping, and contributed to cost-optimized infrastructure using Ansible. He proposed a performance benchmarking pipeline and helped test in-house cluster upgrades. For a fresher, he showed exceptional maturity and technical understanding.</p>
-                            <div class="rec-meta">— Dhiraj Kumar, Sr Manager • DevOps | AI/ML Ops | Data Platform (Manager at Qualys)</div>
+                            <p class="mb-3">“Add your testimonial here — concise and focused on impact and delivery.”</p>
+                            <div class="rec-meta">— Name, Title (Company)</div>
                           </div>
                         </div>
                       </div>
@@ -252,8 +235,8 @@
                         <div class="d-flex justify-content-center">
                           <div class="rec-card">
                             <i class="bi bi-chat-quote quote"></i>
-                            <p class="mb-3">Mohit is technically strong and quickly grasps new concepts. His problem-solving skills, adaptability, and collaborative mindset make him an invaluable asset to any team.</p>
-                            <div class="rec-meta">— Dipak Sawle, Lead DevOps Engineer (Mentor at Qualys)</div>
+                            <p class="mb-3">“Another client quote — highlight reliability, communication, and measurable outcomes.”</p>
+                            <div class="rec-meta">— Name, Title (Company)</div>
                           </div>
                         </div>
                       </div>
