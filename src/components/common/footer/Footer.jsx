@@ -6,7 +6,7 @@ const navItems = [
   { id: 2, name: "About", url: "About" },
   { id: 3, name: "Process", url: "Process" },
   { id: 4, name: "Portfolio", url: "Portfolio" },
-  { id: 5, name: "Blog", url: "Blog" },
+  { id: 5, name: "Experience", url: "Experience" },
   { id: 6, name: "Services", url: "Services" },
   { id: 7, name: "Contact", url: "Contact" },
 ];
@@ -35,7 +35,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} Picto.
+          Copyright &copy; {copyrightYear} Mohit Jain.
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
@@ -45,7 +45,7 @@ const Footer = () => {
           className="underline font-bold"
           target="_blank"
         >
-          ThemeWagon
+          Mohit Jain
         </a>
       </p>
     </div>

@@ -2,17 +2,19 @@ import {
   faBehance,
   faDribbble,
   faFacebookF,
+  faGithub,
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
   { icon: faFacebookF, link: "#!" },
-  { icon: faDribbble, link: "#!" },
+  { icon: faMailBulk, link: "#!" },
   { icon: faInstagram, link: "#!" },
-  { icon: faLinkedin, link: "#!" },
-  { icon: faBehance, link: "#!" },
+  { icon: faLinkedin, link: "www.linkedin.com/in/tsmohitjain19" },
+  { icon: faGithub, link: "https://github.com/mohitjain1911/" },
 ];
 
 const SocialMedia = () => {
