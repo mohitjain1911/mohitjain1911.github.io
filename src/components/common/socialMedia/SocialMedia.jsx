@@ -5,14 +5,15 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import {faPhone} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
-  { icon: faFacebookF, link: "#!" },
-  { icon: faMailBulk, link: "#!" },
   { icon: faInstagram, link: "#!" },
+  { icon: faPhone, link: "tel:+918160261124" },
+  { icon: faWhatsapp, link: "https://wa.me/918160261124" },
   { icon: faLinkedin, link: "https://www.linkedin.com/in/tsmohitjain19" },
   { icon: faGithub, link: "https://github.com/mohitjain1911/" },
 ];
