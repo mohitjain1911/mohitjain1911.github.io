@@ -4,7 +4,7 @@ import Loading from "../components/common/loading/Loading";
 const Home = lazy(() => import("../pages/Home"));
 const Main = lazy(() => import("../layouts/Main"));
 
-const repoName = import.meta.env.VITE_REPO_NAME || "";
+
 
 export const router = createBrowserRouter(
   [
@@ -22,6 +22,5 @@ export const router = createBrowserRouter(
         },
       ],
     },
-  ],
-  { basename: `/${repoName}` }
+  ]
 );
