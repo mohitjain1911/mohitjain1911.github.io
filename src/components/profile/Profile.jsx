@@ -54,7 +54,7 @@ const Profile = () => {
               href="/resume.pdf"
               download="MohitJain_Resume.pdf"
             >
-              <FontAwesomeIcon icon={faDownload} /> Download CV
+              <FontAwesomeIcon icon={faDownload} /> Download Resume
             </a>
           </div>
         </div>
