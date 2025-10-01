@@ -3,21 +3,27 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "User Experience (UX)",
+    title: "DevOps Engineering",
     description:
-      "I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.",
+      "I design and manage CI/CD pipelines using Jenkins and GitHub Actions, ensuring smooth and automated software delivery.",
   },
   {
     id: 2,
-    title: "User Interface (UI)",
+    title: "Cloud & Containers",
     description:
-      "I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.",
+      "I work with AWS, Azure, Docker, and Kubernetes to build scalable, secure, and containerized cloud-native applications.",
   },
   {
     id: 3,
-    title: "Web Development",
+    title: "Infrastructure as Code",
     description:
-      "I build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability.",
+      "I use Terraform and Ansible to automate infrastructure provisioning, configuration management, and system reliability.",
+  },
+  {
+    id: 4,
+    title: "Monitoring & Observability",
+    description:
+      "I enhance system visibility with Prometheus and Grafana, implementing alerting and dashboards for proactive issue resolution.",
   },
 ];
 
@@ -31,26 +37,22 @@ const Profession = () => {
         <p className="section-title max-md:text-center">What I do?</p>
         <div className="mt-6 text-[14px]">
           <p className="text-xs sm:text-lg font-normal text-gray-400 mb-4">
-            I specialize in designing user experiences, crafting engaging
-            interfaces, and building robust web applications that deliver value
-            and usability.
+            I specialize in automating infrastructure, managing cloud platforms, and building scalable DevOps solutions that improve software delivery and reliability.
           </p>
           <p className="text-xs sm:text-lg font-normal text-gray-400">
-            My approach combines creativity and technical expertise to deliver
-            solutions that are both visually appealing and highly functional for
-            users.
+            My expertise combines tools like Jenkins, Kubernetes, Terraform, and monitoring stacks to deliver secure, efficient, and production-ready systems.
           </p>
         </div>
         <a
-          href="#!"
+          href="mailto:your-email@example.com"
           className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5"
         >
-          Say Hello!
+          Contact Me
         </a>
       </div>
-      <div className="">
-        {rolesData.map((role, index) => (
-          <Roles role={role} key={index} />
+      <div>
+        {rolesData.map((role) => (
+          <Roles role={role} key={role.id} />
         ))}
       </div>
     </div>
