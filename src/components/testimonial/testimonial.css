@@ -42,3 +42,8 @@
   box-shadow: 0 6px 24px rgba(25, 118, 210, 0.25);
   transform: translateY(-50%) scale(1.08);
 }
+@media (max-width: 768px) {
+  .testimonial-arrow {
+    display: none !important;
+  }
+}

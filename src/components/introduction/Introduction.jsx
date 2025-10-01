@@ -36,7 +36,7 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">DevOps Engineer</span>{" "}
+            I'm a Freelance <span className="">DevOps Engineer</span>{" "}
             and based in Maharashtra, India. I specialize in designing cloud-native solutions with a focus on scalability, automation, and system reliability.
           </p>
           <p className="text-center lg:text-start">
