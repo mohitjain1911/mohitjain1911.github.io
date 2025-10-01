@@ -1,7 +1,8 @@
-import img1 from "../../assets/images/blog/blog-1.jpg";
-import img2 from "../../assets/images/blog/blog-2.jpg";
-import img3 from "../../assets/images/blog/blog-3.jpg";
-import img4 from "../../assets/images/blog/blog-4.jpg";
+import img1 from "../../assets/brand-logos/qualys.png";
+import img2 from "../../assets/brand-logos/solytics.png";
+import img3 from "../../assets/brand-logos/lovenheal.png";
+import img4 from "../../assets/brand-logos/hackveda.png";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -101,7 +102,7 @@ const Experience = () => {
               <img
                 src={exp.image}
                 alt={exp.company}
-                className="w-full h-40 object-cover rounded-lg mb-4"
+                className="w-full h-40 object-contain rounded-lg mb-4"
               />
               <h3 className="text-lg font-semibold text-gray-800">
                 {exp.role} @ {exp.company}
