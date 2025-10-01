@@ -52,7 +52,7 @@ DevOps Engineer with 2 years of hands‑on experience building and maintaining C
 * **Impact Project (Optional)** — `object_detection_for_blind` — A computer-vision project demonstrating versatility and interest in accessible tech.
   *(Repo: [https://github.com/mohitjain1911/object\_detection\_for\_blind](https://github.com/mohitjain1911/object_detection_for_blind))*
 
-> Tip: I recommend pinning the 3–5 repos above on your GitHub profile and adding short case study READMEs with screenshots / demo videos.
+
 
 ---
 
