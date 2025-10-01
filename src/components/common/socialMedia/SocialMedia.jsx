@@ -13,7 +13,7 @@ const socialIcons = [
   { icon: faFacebookF, link: "#!" },
   { icon: faMailBulk, link: "#!" },
   { icon: faInstagram, link: "#!" },
-  { icon: faLinkedin, link: "www.linkedin.com/in/tsmohitjain19" },
+  { icon: faLinkedin, link: "https://www.linkedin.com/in/tsmohitjain19" },
   { icon: faGithub, link: "https://github.com/mohitjain1911/" },
 ];
 

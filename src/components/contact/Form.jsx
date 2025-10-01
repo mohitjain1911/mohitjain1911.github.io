@@ -23,47 +23,51 @@ const Form = () => {
         opportunities.
       </p>
       <div className="mx-2">
-        <form className="flex flex-col gap-4 mt-4">
+        <form
+          className="flex flex-col gap-4 mt-4"
+          action="https://formspree.io/f/mzzjrlle"
+          method="POST"
+        >
           <input
             type="text"
+            name="name"
             placeholder="Name*"
-            className={`${commonClass}`}
+            className={commonClass}
             required
           />
           <input
             type="email"
+            name="email"
             placeholder="Email*"
-            className={`${commonClass}`}
-            required
-          />
-          <input
-            type="text"
-            placeholder="Location*"
-            className={`${commonClass}`}
+            className={commonClass}
             required
           />
 
           <div className="flex max-xs:flex-col max-xs:gap-4">
             <input
               type="text"
+              name="budget"
               placeholder="Budget*"
               className={`${commonClass} xs:w-[50%] me-5`}
               required
             />
             <input
               type="text"
+              name="subject"
               placeholder="Subject*"
-              className={`${commonClass}`}
+              className={commonClass}
               required
             />
           </div>
 
           <input
             type="text"
+            name="message"
             placeholder="Message*"
-            className={`${commonClass}`}
+            className={commonClass}
             required
           />
+
           <button
             type="submit"
             className="btn gap-3 max-lg:mx-auto btn-primary rounded-sm mt-5 text-[13px] md:text-[16px] w-fit font-semibold lg:mt-12.5 p-2 md:px-4"
@@ -71,6 +75,7 @@ const Form = () => {
             Submit {telegramSVG}
           </button>
         </form>
+
       </div>
     </div>
   );
