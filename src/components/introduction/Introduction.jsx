@@ -1,4 +1,3 @@
-import person from "../../assets/images/person.png";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 
@@ -36,17 +35,37 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="">DevOps Engineer</span>{" "}
-           based in Maharashtra, India. I specialize in designing cloud-native solutions with a focus on scalability, automation, and system reliability.
+            I'm a Freelance DevOps Engineer and based in Maharashtra, India. I specialize in designing cloud-native solutions with a focus on scalability, automation, and system reliability. I have 2 years of hands-on experience in building and maintaining CI/CD pipelines, working with Jenkins, Ansible, Prometheus, and Grafana. Skilled in automation; cloud platforms (AWS & Azure); monitoring; and creating client-facing architecture documentation. Strong in troubleshooting, system reliability, and cross-team collaboration.
+            
           </p>
-          <p className="text-center lg:text-start">
-            <a
-              className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:mohitjain1940@gmail.com"
-            >
-              Say Hello!
-            </a>
-          </p>
+          <div className="mt-6 text-center lg:text-start">
+            {/* Stack buttons vertically on small screens, row on sm+ screens */}
+            <div className="flex flex-col sm:flex-row items-center gap-3 justify-center lg:justify-start w-full">
+              <a
+                className="btn-primary btn btn-xs xxs:btn-lg text-white w-full sm:w-auto text-center"
+                href="mailto:mohitjain1940@gmail.com"
+              >
+                Say Hello!
+              </a>
+
+              <a
+                className="btn-primary btn btn-xs xxs:btn-lg text-white w-full sm:w-auto text-center"
+                href="#portfolio"
+                aria-label="Go to portfolio section"
+              >
+                My Projects
+              </a>
+
+              <a
+                className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary text-xs xxs:text-[14px] sm:text-[16px] w-full sm:w-auto text-center"
+                href="/resume.pdf"
+                download="MohitJain_Resume.pdf"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+          
         </div>
         <div className="mx-auto lg:mx-0 relative">
           <div className="grid max-xxs:grid-flow-col grid-cols-3 w-fit mt-10 gap-1">
@@ -56,15 +75,7 @@ const Introduction = () => {
           </div>
         </div>
       </div>
-      <div
-        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[536/636] relative`}
-      >
-        <img
-          className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}
-          src={person}
-          alt="person"
-        />
-      </div>
+      {/* Image removed per design: show text-only hero */}
     </div>
   );
 };

@@ -1,4 +1,3 @@
-import person from "../../assets/images/person2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
@@ -10,14 +9,11 @@ const Profile = () => {
       id="profile"
     >
       <div className="flex max-md:flex-col justify-between items-center gap-6">
-        {/* Profile image */}
-        <div className="xxl:max-w-106 w-auto h-auto xxl:max-h-126">
-          <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl">
-            <img
-              className="bg-soft-white h-[120%] object-cover"
-              src={person}
-              alt=""
-            />
+        {/* Decorative placeholder instead of profile photo */}
+        <div className="xxl:max-w-106 w-auto h-auto xxl:max-h-126 flex flex-col items-center">
+          <div className="max-w-106 h-117 overflow-hidden rounded-xl bg-gradient-to-br from-gray-100 to-gray-50 flex items-center justify-center">
+            {/* subtle decorative box; no personal photo */}
+            <div className="w-28 h-28 rounded-md bg-gray-200" aria-hidden="true" />
           </div>
           {/* Social media section */}
           <div className="relative bottom-9">
@@ -54,7 +50,7 @@ const Profile = () => {
               href="/resume.pdf"
               download="MohitJain_Resume.pdf"
             >
-              <FontAwesomeIcon icon={faDownload} /> Download Resume
+              <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
           </div>
         </div>

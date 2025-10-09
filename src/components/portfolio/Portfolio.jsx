@@ -46,8 +46,7 @@ const Portfolio = () => {
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
           <p className="section-title ">Portfolio</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
-            Here's a selection of my recent work, showcasing my skills in
-            creating user-centric and visually appealing interfaces.
+          A showcase of my DevOps projects — from multi-cloud CI/CD pipelines to automation and infrastructure as code — built to improve scalability, reliability, and delivery speed.
           </p>
         </div>
       </div>
@@ -60,7 +59,7 @@ const Portfolio = () => {
       </div>
       <div className="text-center">
         <a
-          href="#!"
+          href="https://github.com/mohitjain1911"
           className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
         >
           More Project
