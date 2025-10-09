@@ -1,5 +1,7 @@
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 // Information summary data
 const informationSummaryData = [
@@ -61,7 +63,7 @@ const Introduction = () => {
                 href="/resume.pdf"
                 download="MohitJain_Resume.pdf"
               >
-                Download CV
+                <FontAwesomeIcon icon={faDownload} className="me-2" /> Download CV
               </a>
             </div>
           </div>
